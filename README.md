@@ -25,10 +25,10 @@
     ~ terraform apply
 ### images deployed on GKE must come from GCR or DockerHub [I push image on Dockerhub]
     1.1
-        ~ docker build -t nodejs-image33 .
-        ~ docker tag nodejs-image33:latest abdelrahman1413/nodejs-image33
-        ~ docker push abdelrahman1413/nodejs-image33
-![endday1](https://user-images.githubusercontent.com/42601017/199497059-e0d40146-45c8-425d-9daa-a3618cd8111a.png)
+        ~ docker build -t jenkins_pub .
+        ~ docker tag nodejs-image33:latest abdelrahman1413/jenkins_pub
+        ~ docker push abdelrahman1413/jenkins_pub
+![ttttttttttt](https://user-images.githubusercontent.com/42601017/199498781-7a714072-8052-4067-9991-5d6c9493cea6.png)
 
 ### Connect to private cluster through private vm
  1. ~ gcloud compute ssh iti-instance --tunnel-through-iap
