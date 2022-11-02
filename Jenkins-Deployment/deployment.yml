@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: docker.io/abdelrahman1413/nodejs-image33
+          image: docker.io/abdelrahman1413/jenkins_pub
           ports:
             - name: httpport
               containerPort: 8080
