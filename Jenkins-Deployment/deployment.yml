@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: gcr.io/abdelrahmantarek-project/jenkins79
+          image: docker.io/abdelrahman1413/nodejs-image33
           ports:
             - name: httpport
               containerPort: 8080
