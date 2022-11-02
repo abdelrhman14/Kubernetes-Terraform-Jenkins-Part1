@@ -36,9 +36,14 @@
  3. ~ sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin && gcloud container clusters get-credentials iti-cluster --zone us-east1-b
 
  ![ahly3](https://user-images.githubusercontent.com/42601017/198861741-509329a9-1606-480a-bc73-33694bdaf392.png)
+ ### Create Docker File [Jenkins]
+    Include :
+        1. Docker
+        2. Git
+        3. Kubectl
  
- ### Create Jenkins deployment
- ### Create Jenkins Server
- ### Create NameSpace [Jenkins]
- ### Create Volume
+ #### 1. Create Jenkins deployment
+ #### 2. Create Jenkins Server
+ #### 3. Create NameSpace [Jenkins]
+ #### 4. Create Volume
 
