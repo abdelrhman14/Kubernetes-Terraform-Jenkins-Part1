@@ -28,7 +28,8 @@
         ~ docker build -t nodejs-image33 .
         ~ docker tag nodejs-image33:latest abdelrahman1413/nodejs-image33
         ~ docker push abdelrahman1413/nodejs-image33
-        
+![endday1](https://user-images.githubusercontent.com/42601017/199497059-e0d40146-45c8-425d-9daa-a3618cd8111a.png)
+
 ### Connect to private cluster through private vm
  1. ~ gcloud compute ssh iti-instance --tunnel-through-iap
  2. ~ gcloud auth login
